@@ -27,6 +27,3 @@ Android AccessibilityService辅助服务类学习，微信抢红包实战，仅�
 插件可能会在一定程度上改变微信的交互方式。使用本项目中包含的代码及其生成物时，使用者自行承担随之而来的各种风险，包括但不限于“禁用红包功能”、“微信封号”。
 
 本项目使用[MIT许可证](https://github.com/geeeeeeeeek/WeChatLuckyMoney/blob/stable/LICENSE.md)。
-
-### 应用截图
-![wechatimg159](https://cloud.githubusercontent.com/assets/7262715/22361931/999cc8e0-e499-11e6-91ae-ce6973f722f0.png)
