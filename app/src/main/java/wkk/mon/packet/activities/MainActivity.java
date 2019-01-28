@@ -18,8 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import wkk.mon.packet.R;
-import wkk.mon.packet.utils.ConnectivityUtil;
-import wkk.mon.packet.utils.UpdateTask;
 
 import java.util.List;
 
@@ -80,11 +78,7 @@ public class MainActivity extends Activity implements AccessibilityManager.Acces
     @Override
     protected void onResume() {
         super.onResume();
-
         updateServiceStatus();
-        // Check for update when WIFI is connected or on first time.
-        if (ConnectivityUtil.isWifi(this) || UpdateTask.count == 0)
-            new UpdateTask(this, false).update();
     }
 
     @Override
